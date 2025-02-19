@@ -49,7 +49,7 @@ function App() {
         </main>
       <Footer/>
       {showModal && <NewUserForm addUser={addUser}/>}
-      <button onClick={() => setShowModal(true)} className='create-user'>Create User</button>
+      <button onClick={() => setShowModal(true)} className='create-user'>Create</button>
     </div>
   )
 }
